@@ -8,11 +8,11 @@ export default [
     rules: {
         semi: ['error', 'always'],
         quotes: ['error', 'single'],
-        console: ['error', 'always'],
-        eqeqeq: [ 'error', 'single' ],
-        camelcase: [ 'error', 'single' ],
-        nounusedvars: [ 'error', 'single' ],
-        maxlinesperfunction: [ 'error', 20 ]
-    },
+        'no-console': ['error'], 
+        eqeqeq: ['error', 'always'],
+        camelcase: 'error',
+        'no-unused-vars': 'error',
+        'max-lines-per-function': ['error', { "max": 20 }]
+    }
   },
 ];
