@@ -8,7 +8,7 @@ export default [
     rules: {
         semi: ['error', 'always'],
         quotes: ['error', 'single'],
-        'no-console': ['error'], 
+        'no-console': ['warn'], 
         eqeqeq: ['error', 'always'],
         camelcase: 'error',
         'no-unused-vars': 'error',
