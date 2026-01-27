@@ -5,5 +5,5 @@ test('Suma 1 + 2 debe ser 3', () => {
 });
 
 test('Resta debe ser 1', () => {
-  expect(res(2, 2)).toBe(1);
+  expect(res(2, 2)).toBe(0);
 });
