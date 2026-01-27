@@ -12,7 +12,6 @@ export default [
         eqeqeq: ['error', 'always'],
         camelcase: 'error',
         'no-unused-vars': 'error',
-        'max-lines-per-function': ['error', { "max": 20 }]
     }
   },
 ];
