@@ -3,3 +3,9 @@ function suma(a, b) {
 }
 
 document.getElementById('out').textContent = `5 + 8 = ${suma(5, 8)}`;
+
+function resta(a, b) {
+    return a - b;
+}
+
+document.getElementById('out').textContent = `5 - 3 = ${resta(5, 3)}`;
